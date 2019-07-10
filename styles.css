@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Teko|Hind+Siliguri&display=swap');
+
+* { box-sizing: border-box;}
+
+#content {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	display:
+}
+
+/* images */
+#logo {
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+.banner {
+	width: 100%;
+}
+
+.previewimg {
+	width: 80%;
+	box-shadow: 5px 5px 5px gray;
+}
+
+.socialmedia {
+	margin: 5px 10px;
+	border: 3px solid #e7ecef;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px black;
+}
+
+/* header */
+nav button {
+	font-size: 28px;
+	text-align: right;
+	border: 3px solid #79bc7d;
+	background-color: #e7ecef;
+	color: #79bc7d;
+	display: flex;
+	float: right;
+	position: relative;
+	bottom: 20px;
+	left: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+nav {
+	background-color: #563687;
+	padding: 45px;
+	margin-top: -100px;
+}
+
+nav ul.hide {
+	display: none;
+}
+
+nav ul {
+	list-style: none;
+	position: absolute;
+	width: 30%;
+	background-color: #e7ecef;
+	color: #563687;
+	left: 65%;
+	top: 14%;
+	border: 5px solid #79bc7d;
+	border-radius: 10px;
+}
+
+nav li {
+	font-family: 'Teko', sans-serif;
+	font-size: 1.5em;
+	margin: 1em 1em 1em 0;
+}
+
+nav a {
+	color: #563687;
+	text-decoration: none;
+	padding: .5em 1em;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	text-decoration-color: #79bc7d;
+	color: #79bc7d;
+}
+
+ul li.active {
+	text-decoration: underline;
+}
+
+/* main */
+.headline {
+	font-family: 'Teko', sans-serif;
+	font-size: 35px;
+	margin: .5em auto;
+	background-color: #563687;
+	color: #e7ecef;
+	padding: 5px;
+}
+
+.preview {
+	padding: 1em;
+	background-color: #e7ecef;
+}
+
+.preview h4 {
+	font-size: 25px;
+	font-family: 'Teko', sans-serif;
+	margin: 10px auto;
+}
+
+.preview p {
+	font-family: 'Hindi Siliguri', sans-serif;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #79bc7d;
+}
+
+/* footer */
+footer {
+	background-color: #563687;
+	text-align: center;
+}
+
+footer h3 {
+	margin: 10px 0 0 0;
+	font-size: 35px;
+	color: #e7ecef;
+	font-family: 'Teko', sans-serif;
+}
+footer p {
+	margin: 0 auto;
+	color: #79bc7d;
+}
+
+#info {
+	color: #e7ecef;
+}
