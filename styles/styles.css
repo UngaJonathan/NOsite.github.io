@@ -63,7 +63,7 @@ nav ul.hide {
 nav ul {
 	list-style: none;
 	position: absolute;
-	min-width: 25%;
+	min-width: 50%;
 	background-color: #e7ecef;
 	color: #563687;
 	left: 60%;
@@ -82,6 +82,8 @@ nav a {
 	color: #563687;
 	text-decoration: none;
 	padding: .5em 1em;
+	position: relative;
+	right: 20%;
 }
 
 nav a:hover {
