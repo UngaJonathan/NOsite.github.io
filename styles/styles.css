@@ -63,7 +63,7 @@ nav ul.hide {
 nav ul {
 	list-style: none;
 	position: absolute;
-	min-width: 30%;
+	min-width: 20%;
 	background-color: #e7ecef;
 	color: #563687;
 	left: 60%;
