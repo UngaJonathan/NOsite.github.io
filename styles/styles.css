@@ -38,9 +38,10 @@ header {
 }
 
 .newsimg {
+	max-height: 10%;
 	width: 240px;
-	min-width: 30%;
-	margin: 0 20px 10px 5px;
+	min-width: 35%;
+	margin: 0 15px 10px 5px;
 }
 
 .toptenimg {
