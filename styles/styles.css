@@ -119,7 +119,7 @@ ul li.active {
 	padding: 5px;
 }
 
-.preview, .content {
+.preview, .content, .newstopic {
 	padding: 1em;
 	background-color: #e7ecef;
 }
@@ -161,6 +161,7 @@ ul li.active {
 	display: flex;
 	margin-bottom: 1.5em;
 	border-bottom: 3px solid #79bc7d;
+	border-top: 3px solid #79bc7d;
 }
 
 .content ol {
