@@ -14,7 +14,6 @@ header {
 /* images */
 #logo {
 	position: relative;
-	top: 10px;
 	left: 10px;
 }
 
@@ -34,10 +33,18 @@ header {
 	box-shadow: 3px 3px 3px black;
 }
 
+.socialmedia:hover {
+	animation: 
+}
+
 .newsimg {
-	max-height: 170px;
+	width: 240px;
 	min-width: 30%;
-	margin: 0 10px 5px 5px;
+	margin: 0 20px 10px 5px;
+}
+
+.toptenimg {
+	width: 90%;
 }
 
 /* header */
@@ -59,7 +66,7 @@ nav button {
 nav {
 	background-color: #563687;
 	padding: 45px;
-	margin-top: -100px;
+	margin: -115px 0 3px 0;
 }
 
 nav ul.hide {
@@ -112,7 +119,7 @@ ul li.active {
 	padding: 5px;
 }
 
-.preview {
+.preview, .content {
 	padding: 1em;
 	background-color: #e7ecef;
 }
@@ -120,9 +127,18 @@ ul li.active {
 .preview a, .newsinfo a {
 	font-size: 25px;
 	font-family: 'Teko', sans-serif;
-	margin: 10px auto;
 	text-decoration: none;
 	color: black;
+}
+
+.content h4 {
+	font-size: 30px;
+	font-family: 'Teko', sans-serif;
+	border-bottom: 3px solid #79bc7d
+}
+
+.preview h4, .newsinfo h3 {
+	margin: 10px auto;
 }
 
 .preview h4:hover, .newsinfo a:hover {
@@ -137,10 +153,25 @@ ul li.active {
 	border-bottom: 3px solid #79bc7d;
 }
 
+.newsinfo p {
+	font-family: 'Hindi Siliguri', sans-serif;
+}
+
 .newstopic {
 	display: flex;
 	margin-bottom: 1.5em;
 	border-bottom: 3px solid #79bc7d;
+}
+
+.content ol {
+	border: 5px solid #79bc7d; 
+}
+
+.content ol li {
+	padding: 3px;
+	margin: 3px;
+	font-family: 'Hindi Siliguri', sans-serif;
+	list-style-type: 
 }
 
 /* footer */
