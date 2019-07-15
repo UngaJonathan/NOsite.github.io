@@ -2,13 +2,9 @@
 
 * { box-sizing: border-box;}
 
-#content {
-	max-width: 1200px;
+.page {
+	max-width: 600px;
 	margin: 0 auto;
-}
-
-header {
-	display:
 }
 
 /* images */

@@ -1,0 +1,38 @@
+@media only screen and (min-width:1000px) {
+	.page {
+		max-width: 1200px;
+		margin: auto; 
+	}
+	
+	/* images */
+	.banner {
+		width: 1200px;
+		height: 480px;
+	}
+	
+	.toptenimg {
+		width: 70%;
+		margin-left: 15%;
+	}
+	
+	/* nav */
+	nav {
+		padding: 2.25em;
+	}
+	
+	nav ul {
+		left: 50%;
+		top: 6%;
+	}
+	
+	nav li {
+		margin: 2px 40px;
+	}
+	
+	nav a {
+		font-size: 25px;
+	}
+	
+	
+	
+}
