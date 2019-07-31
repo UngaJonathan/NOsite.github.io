@@ -39,7 +39,7 @@
 	margin: 0 15px 10px 5px;
 }
 
-.toptenimg {
+.toptenimg, .latestimg {
 	width: 90%;
 	margin-left: 5%
 }
@@ -116,7 +116,7 @@ ul li.active {
 	padding: 5px;
 }
 
-.preview, .content, .newstopic {
+.preview, .content, .newstopic, .latestreviews {
 	padding: 1em;
 	background-color: #e7ecef;
 }
@@ -128,7 +128,7 @@ ul li.active {
 	color: black;
 }
 
-.content h4 {
+.content h4, .reviewinfo {
 	font-size: 30px;
 	font-family: 'Teko', sans-serif;
 	border-bottom: 3px solid #79bc7d
