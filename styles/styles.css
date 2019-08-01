@@ -31,6 +31,8 @@
 
 .newsimg, .reviewsimg {
 	width: 40%;
+	max-width: 40%;
+	height: auto;
 	margin: 0 15px 10px 5px;
 }
 
