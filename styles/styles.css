@@ -30,7 +30,7 @@
 }
 
 .newsimg, .reviewsimg {
-	width: 240px;
+	width: 35%;
 	min-width: 35%;
 	margin: 0 15px 10px 5px;
 }
