@@ -33,7 +33,7 @@
 	animation: 
 }
 
-.newsimg {
+.newsimg, .reviewsimg {
 	width: 240px;
 	min-width: 35%;
 	margin: 0 15px 10px 5px;
@@ -116,12 +116,12 @@ ul li.active {
 	padding: 5px;
 }
 
-.preview, .content, .newstopic, .latestreviews {
+.preview, .content, .newstopic, .latestreviews, .reviewarch {
 	padding: 1em;
 	background-color: #e7ecef;
 }
 
-.preview a, .newsinfo a {
+.preview a, .newsinfo a, .reviewhead a {
 	font-size: 25px;
 	font-family: 'Teko', sans-serif;
 	text-decoration: none;
@@ -150,11 +150,11 @@ ul li.active {
 	border-bottom: 3px solid #79bc7d;
 }
 
-.newsinfo p {
+.newsinfo p, .reviewhead p {
 	font-family: 'Hindi Siliguri', sans-serif;
 }
 
-.newstopic {
+.newstopic, .reviewarch {
 	display: flex;
 	margin-bottom: 1.5em;
 	border-bottom: 3px solid #79bc7d;
